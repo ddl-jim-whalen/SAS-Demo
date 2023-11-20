@@ -1,10 +1,10 @@
-ods html body='dow.html' style=HTMLBlue path="/mnt/results/" gpath="/mnt/results/" ;
+ods html body='dow.html' style=HTMLBlue path="/mnt/artifacts/" gpath="/mnt/artifacts/" ;
 ods trace on;
-ods listing gpath="/mnt/results/";
+ods listing gpath="/mnt/artifacts/";
 ods graphics on / reset=index ;
  
  
-filename graphout "/mnt/results/dow.png";
+filename graphout "/mnt/artifacts/dow.png";
 goptions device=png gsfname=graphout;
  
  
