@@ -1,10 +1,10 @@
 /* make changes here */
+
 ods html body='dow.html' style=HTMLBlue path="/mnt/artifacts/" gpath="/mnt/artifacts/" ;
 ods trace on;
 ods listing gpath="/mnt/artifacts/";
 ods graphics on / reset=index ;
- 
- 
+
 filename graphout "/mnt/artifacts/dow.png";
 goptions device=png gsfname=graphout;
  
@@ -28,7 +28,7 @@ data stocks;
 run;
  
    /* define titles and footnotes */
-title1 'Dow Jones Ind Average';
+title1 'Demo - Dow Jones Ind Average';
 title2 height=4 'Highs and Lows From 1954 to 1987';
 footnote2 j=l ' Source: 1988 World Almanac'
           j=r 'GR31N08  ';
